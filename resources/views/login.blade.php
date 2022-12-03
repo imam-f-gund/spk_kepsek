@@ -49,7 +49,7 @@
                             <div class="text-center">
                                 <img src="{{ asset('img/logo.png') }}" width="30%" class="mb-3" />
                                 <h2 class="h4 text-gray-900">SPK Penilaian Kepala Sekolah</h2>
-                                <h2 class="h4 text-gray-900 mb-5">PC LP Ma’arif NU Lamongan</h2>
+                                <h2 class="h4 text-gray-900 mb-5">Penialaian</h2>
                             </div>
                             <form class="user" action="{{ url('cek-login') }}" method="POST">
                                 @csrf
